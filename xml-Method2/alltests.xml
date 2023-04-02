@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteAll" >
+	<test name="smoke">
+		<classes>
+			<class name="tests.NewTestCases" />
+		</classes>
+	</test> <!-- TestAll -->
+
+	<test name="regression">
+		<classes>
+			<class name="tests.AdditionalTestCases" />
+		</classes>
+	</test> <!-- TestAll -->
+
+	<test name="endtoend">
+		<classes>
+			<class name="tests.TestCases" />
+		</classes>
+	</test> <!-- TestAll -->
+
+</suite> <!-- SuiteAll -->
